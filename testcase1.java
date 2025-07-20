@@ -15,10 +15,10 @@ public class testcase1 {
 		Actions builder = new Actions(driver); 
 		builder.contextClick(c).perform();
 		WebElement searchBox=driver.findElementByName("search_query");
-		searchBox.sendKeys("naruto shippend game"); 
+		searchBox.sendKeys("generative ai"); 
 		searchBox.submit();
 		if(true);
-		System.out.println("Naruto");
+		System.out.println("automation is done");
 		
 	}
 
